@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #12343B;
+    font-family: 'Cairo', sans-serif;
+}
+
+.left-bar {
+    background-color: #0a1b1f;
+    padding: 5rem;
+    margin: 0;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 6px -6px 12px #09171a;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a1b1f;
+    color: #E1B382;
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    color: #C89666;
+}
+
+h1,
+h2 {
+    color: #E1B382;
+}
+
+.left-bar>ul>li {
+    padding-top: 10px;
+    color: #E1B382;
+    font-size: 2rem;
+}
+
+.logo {
+    display: inline;
+}
+
+#text-logo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+}
+
+//.layout-main {}
+#myself-img {
+    width: 25%;
+}
+
+.logo>img {
+    width: 20%;
+}
+
+#first-word,
+p {
+    color: #F1D288;
+}
+
+.left-bar>ul>li {
+    margin-left: 10px;
+}
+
+.main-screen {
+    margin-left: 30px;
+}
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+#contact-me-btn {
+    text-align: center;
+    font-size: 15px;
+    background-color: #C89666;
+    color: #0a1b1f;
+}
+
+#social-networks {
+    display: flex;
+    flex-direction: row;
+}
+
+#social-networks>li {
+    padding: 5px;
+}
+
+.portfolio-glass {
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 98%;
+}
+
+.items-portfolio {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.item-p {
+    text-align: center;
+    margin-right: 2%;
+    border: blanchedalmond;
+    padding: 1rem;
+    background: rgba( 53, 148, 167, 0.20);
+    box-shadow: 0 8px 32px 0 #c895661e;
+    backdrop-filter: blur( 5.0px);
+    -webkit-backdrop-filter: blur( 5.0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
+    animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+    40% {
+        opacity: .6
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+    40% {
+        opacity: .6
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.tracking-in-contract-bck {
+    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(.215, .61, .355, 1.000) both;
+    animation: tracking-in-contract-bck 1s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px);
+        transform: translateZ(400px);
+        opacity: 0
+    }
+    40% {
+        opacity: .6
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes tracking-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px);
+        transform: translateZ(400px);
+        opacity: 0
+    }
+    40% {
+        opacity: .6
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+.color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both
+}
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #12343B
+    }
+    100% {
+        background: #004452
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #12343B
+    }
+    100% {
+        background: #004452
+    }
+}
